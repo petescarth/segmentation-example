@@ -9,3 +9,6 @@ And generate segments around similar objects at a scale determined by the user. 
 
 The library can also efficiently calculate per segment statistics, such as the mean of each segment:
 ![image](https://user-images.githubusercontent.com/1754742/188752082-b2e3c821-e2cc-437f-8ab4-92a7b9bf35b3.png)
+
+
+There is also a simple example showing how to use KMeans to cluster the segments into a number of classes. Following clustering, the resulting attribues can be joined to the vector file of the segments for visulisation and additional spatial analysis. For a similar example using GeoPandas see [segment-cluster](https://github.com/petescarth/segment-cluster)
