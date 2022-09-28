@@ -16,7 +16,7 @@ The library can also efficiently calculate per segment statistics, such as the m
 
 There is also a simple example showing how to use KMeans to cluster the segments into a predefined number of classes. 
 
-Following clustering, the resulting attribues can be joined to the vector file of the segments for visulisation and additional spatial analysis.
+Following clustering, the resulting attribues can be joined to the vector file of the segments for visualization and additional spatial analysis.
 
 ![image](https://github.com/petescarth/segmentation-example/blob/main/linkingKmeansClusters.gif)
 
